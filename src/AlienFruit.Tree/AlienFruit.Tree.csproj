@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Alexander Prokopovich</Authors>
+    <Company>AlienFruit</Company>
+    <Copyright>Copyright © Alexander Prokopovich 2020</Copyright>
+    <Description>.Net Standard library for convenient working with entity tree</Description>
+    <PackageIcon>Artboard 1.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/AlienFruit/Alienfruit.Tree</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AlienFruit/Alienfruit.Tree</RepositoryUrl>
+    <PackageTags>entity tree C#</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <NeutralLanguage>English</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,6 +20,17 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\NET.Standart\AlienFruit\Design\Icons2\256w\Artboard 1.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
