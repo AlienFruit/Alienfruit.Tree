@@ -11,7 +11,7 @@ namespace AlienFruit.Tree
         private readonly Func<T, IEnumerable<T>> childrenSelector;
         public Tree(IEnumerable<T> source, Func<T, IEnumerable<T>> childrenSelector)
         {
-            this.source = source;
+            this.source = source.ToList();
             this.childrenSelector = childrenSelector;
         }
 
